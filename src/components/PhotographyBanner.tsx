@@ -6,7 +6,7 @@ const PhotographyBanner: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
 
-  const texts = ["БИЗНЕС.", "БРЕНДЫ."]
+  const texts = ["АМИНУ!", "МАГИЧЕСКУЮ БИТВУ!"]
 
   useEffect(() => {
     const typeSpeed = isDeleting ? 40 : 100
@@ -828,7 +828,7 @@ const PhotographyBanner: React.FC = () => {
             <div className="left-part">
               <h1>
                 <span className="d-flex">
-                  {["С", "О", "З", "Д", "А", "Ё", "М"].map((char, index) => (
+                  {["С", "М", "О", "Т", "Р", "И"].map((char, index) => (
                     <span key={index} className="char tracking-tighter" style={{ animationDelay: `${index * 0.08}s` }}>
                       {char === " " ? "\u00A0" : char}
                     </span>
@@ -837,10 +837,10 @@ const PhotographyBanner: React.FC = () => {
                 <span className="text tracking-tighter">{currentText}</span>
               </h1>
               <p className="tracking-widest">
-                Помогаем предпринимателям запускать цифровые продукты быстрее с помощью современных технологий
+                Срочное послание для Амины — 4 неопровержимых причины немедленно начать смотреть Магическую Битву
               </p>
               <a href="#cta" className="book-link">
-                <span className="linktext tracking-tighter text-3xl">Начать проект</span>
+                <span className="linktext tracking-tighter text-3xl">Убедиться</span>
                 <span className="arrow">
                   <span></span>
                 </span>
@@ -888,42 +888,42 @@ const PhotographyBanner: React.FC = () => {
           <section className="features-section">
             <div className="features-container">
               <div className="features-content">
-                <h2>Почему выбирают нас?</h2>
+                <h2>Почему <span className="highlight">Амина</span> должна смотреть?</h2>
               </div>
               <ul className="features-list">
                 <li className="feature-item">
                   <div className="feature-icon">01</div>
                   <div className="feature-text">
-                    <h3>Опытная команда</h3>
+                    <h3>Провести время со мной!</h3>
                     <p className="font-light tracking-wider">
-                      Более 10 лет опыта в разработке цифровых продуктов для бизнеса любого масштаба
+                      Со мной время проводить. Провести время с любимой подружкой — разве это не лучшая причина?
                     </p>
                   </div>
                 </li>
                 <li className="feature-item">
                   <div className="feature-icon">02</div>
                   <div className="feature-text">
-                    <h3>Современные технологии</h3>
+                    <h3>Сатосуги — два гея</h3>
                     <p className="tracking-wider">
-                      Используем передовые инструменты и фреймворки для создания быстрых и надёжных решений
+                      Сатору и Сугуру — два несчастных гея, чья история разобьёт тебе сердце на тысячу осколков
                     </p>
                   </div>
                 </li>
                 <li className="feature-item">
                   <div className="feature-icon">03</div>
                   <div className="feature-text">
-                    <h3>Индивидуальный подход</h3>
+                    <h3>Отсылка на Дестиелей</h3>
                     <p className="tracking-wider">
-                      Каждый проект уникален — мы адаптируем решения под ваши конкретные задачи и цели
+                      Два несчастных гея — прямая отсылка на Дестиелей. Если ты любишь Дестиель, ты полюбишь это
                     </p>
                   </div>
                 </li>
                 <li className="feature-item">
                   <div className="feature-icon">04</div>
                   <div className="feature-text">
-                    <h3>Поддержка 24/7</h3>
+                    <h3>Ты меня любишь?</h3>
                     <p className="tracking-wider">
-                      Обеспечиваем техническую поддержку и сопровождение на всех этапах работы
+                      Если да — смотри. Это единственное доказательство любви, которое я прошу. Один сезон. Просто один.
                     </p>
                   </div>
                 </li>
@@ -933,77 +933,77 @@ const PhotographyBanner: React.FC = () => {
 
           <section className="testimonials-section">
             <div className="testimonials-container">
-              <h2 className="testimonials-title">Отзывы клиентов</h2>
+              <h2 className="testimonials-title">Говорят фанаты</h2>
               <div className="testimonials-marquee">
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "Команда полностью изменила наш подход к цифровому присутствию. Результаты превзошли все ожидания."
+                    "Начала смотреть Магическую Битву в пятницу вечером. В понедельник я уже на 2 сезоне и плачу в 3 ночи."
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">АС</div>
+                    <div className="author-avatar">МБ</div>
                     <div className="author-info">
-                      <h4>Алексей Смирнов</h4>
-                      <p>Директор по развитию</p>
+                      <h4>Маша Б.</h4>
+                      <p>Бывший скептик</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "Профессиональный подход и внимание к деталям. Запустили проект в рекордные сроки без потери качества."
+                    "Говорили 'это просто аниме про драки'. Теперь я пишу фанфики про Сатосуги в 2 часа ночи."
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">МК</div>
+                    <div className="author-avatar">КЛ</div>
                     <div className="author-info">
-                      <h4>Мария Козлова</h4>
-                      <p>Основатель стартапа</p>
+                      <h4>Катя Л.</h4>
+                      <p>Фанатка Дестиеля</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "От идеи до запуска — всё прошло гладко. Рекомендую всем, кто ценит качество и скорость."
+                    "Сугуру и Сатору — это Кастиэль и Дин, только хуже, потому что больнее. Амина, смотри немедленно!"
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">ДВ</div>
+                    <div className="author-avatar">АЮ</div>
                     <div className="author-info">
-                      <h4>Дмитрий Волков</h4>
-                      <p>Предприниматель</p>
+                      <h4>Аня Ю.</h4>
+                      <p>Разрушенное сердце</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "Команда полностью изменила наш подход к цифровому присутствию. Результаты превзошли все ожидания."
+                    "Начала смотреть Магическую Битву в пятницу вечером. В понедельник я уже на 2 сезоне и плачу в 3 ночи."
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">АС</div>
+                    <div className="author-avatar">МБ</div>
                     <div className="author-info">
-                      <h4>Алексей Смирнов</h4>
-                      <p>Директор по развитию</p>
+                      <h4>Маша Б.</h4>
+                      <p>Бывший скептик</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "Профессиональный подход и внимание к деталям. Запустили проект в рекордные сроки без потери качества."
+                    "Говорили 'это просто аниме про драки'. Теперь я пишу фанфики про Сатосуги в 2 часа ночи."
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">МК</div>
+                    <div className="author-avatar">КЛ</div>
                     <div className="author-info">
-                      <h4>Мария Козлова</h4>
-                      <p>Основатель стартапа</p>
+                      <h4>Катя Л.</h4>
+                      <p>Фанатка Дестиеля</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-card">
                   <p className="testimonial-quote">
-                    "От идеи до запуска — всё прошло гладко. Рекомендую всем, кто ценит качество и скорость."
+                    "Сугуру и Сатору — это Кастиэль и Дин, только хуже, потому что больнее. Амина, смотри немедленно!"
                   </p>
                   <div className="testimonial-author">
-                    <div className="author-avatar">ДВ</div>
+                    <div className="author-avatar">АЮ</div>
                     <div className="author-info">
-                      <h4>Дмитрий Волков</h4>
-                      <p>Предприниматель</p>
+                      <h4>Аня Ю.</h4>
+                      <p>Разрушенное сердце</p>
                     </div>
                   </div>
                 </div>
@@ -1013,16 +1013,16 @@ const PhotographyBanner: React.FC = () => {
 
           <section className="cta-section" id="cta">
             <div className="cta-container">
-              <h2 className="cta-title text-center">Готовы начать?</h2>
+              <h2 className="cta-title text-center">Амина, ну?</h2>
               <p className="cta-subtitle">
-                Присоединяйтесь к сотням компаний, которые уже трансформировали свой бизнес. Ваш путь к успеху начинается здесь.
+                Сатору и Сугуру ждут тебя. Я жду тебя. Все ждут тебя.
               </p>
               <div className="cta-buttons">
-                <a href="#" className="cta-button">
-                  Обсудить проект
+                <a href="https://www.crunchyroll.com/jujutsu-kaisen" target="_blank" rel="noreferrer" className="cta-button">
+                  Смотреть сейчас
                 </a>
                 <a href="#" className="cta-button secondary">
-                  Посмотреть кейсы
+                  Мне нужно подумать...
                 </a>
               </div>
             </div>
